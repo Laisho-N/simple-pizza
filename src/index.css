@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.summary{
+    width:800px;
+    border:2px solid #4b84f7;
+    padding: 20px 20px;
+}
+
+.summary-title{
+    font-size: 30px;
+    color:#4b84f7;
+}
+
+.summary-item-title{
+    font-size: 20px;
+    color:#4b84f7;
+}
+
+.summary-text{
+    font-size:25px;
+}
+.large-text{
+    font-size:40px;
+}
+
+

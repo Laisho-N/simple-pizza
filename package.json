@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite build && vite preview --host"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.23",
+    "secure-ls": "^1.2.6",
+    "vue": "^3.0.5",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.3.1",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.13.0",
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.4.2"
+  }
+}
